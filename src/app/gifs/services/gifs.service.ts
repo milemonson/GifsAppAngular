@@ -5,6 +5,7 @@ import { Gifs, SearchGifsResponse } from '../interfaces/gifs.interfaces';
 @Injectable({
   providedIn: 'root'
 })
+
 export class GifsService {
 
 private apiKey : string = 'YMCIiwCzBi8XMYHYPcjjodLT63LSvSaF';
