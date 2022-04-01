@@ -13,6 +13,7 @@ private _historial: string[]=[];
 public resultados: Gifs[] = [];
 
 
+
  get historial(){
  
   return [...this._historial];
